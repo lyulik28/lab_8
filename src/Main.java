@@ -34,6 +34,7 @@ public class Main {
     /**
      * Розбиває текст на слова, які записує спочатку у масив, а потім у HashSet
      * Створює другий HashSet, у який записуються значення, з першого крім тих, що не є однаковими, але з різним регстром
+     *
      * @param text
      */
     public static void differentWords(String text) {
@@ -71,6 +72,7 @@ public class Main {
      * де ключ - слово, а значення - його зустрічаємість
      * виводить слова, що мають ключ 1 - зустрічаються один раз
      * виводить слово та знайдену частоту
+     *
      * @param text
      */
     public static void wordsPeriodicity(String text) {
@@ -103,6 +105,7 @@ public class Main {
     /**
      * Розбиває текст на речення, які записує спочатку у масив, а потім у ArrayList
      * Виконує сортування та виводить відсортнований ArrayList
+     *
      * @param text
      */
     public static void sortText(String text) {
@@ -119,6 +122,7 @@ public class Main {
 
     /**
      * "Точка входу" в програму
+     *
      * @param args
      */
     public static void main(String[] args) {
